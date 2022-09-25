@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Biodata Diri</h1>
+    <hr width="600">
+    <table align="center" cellpadding="10px" width="600px">
+        <tr>
+            <td>Nama</td>
+            <td>: Rifky Bintang Pradana</td>
+            <td rowspan="10"><img src="c:\Users\HP\Documents\fotodiri.jpeg" height="230px" width="170px" cellpadding="10px"></td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>: A11.2022.14038</td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>: Aktif</td>
+        </tr>
+        <tr>
+            <td>Dosen Wali</td>
+            <td>: Nurul Anisa Sri Winarsih, S.Kom, M.Cs</td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>: Islam</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>: laki-Laki</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>: Jl. Borobudur Utara XIII</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>: 111202214038@mhs.dinus.ac.id</td>
+        </tr>
+        <tr>
+            <td>No Hp</td>
+            <td>: 087709029729</td>
+        </tr>
+    <table border="1" align="center" width="80%"
+    style="border-collapse: collapse;">
+        <h1 align="center">JADWAL KRS</h1>
+        <hr width="600">
+	<tr bgcolor="blue" height="30">
+        <th>No</th>
+        <th>Kode Mata Kuliah</th>
+        <th>Kelompok</th>
+        <th>Mata Kuliah</th>
+        <th>SKS</th>
+        <th>Status</th>
+	</tr>
+    <tr>
+        <td align="center">1</td>
+        <td align="center">A11.54101</td>
+        <td align="center">A11.4102</td>
+        <td>KALKULUS 1</td>
+        <td align="center">4</td>
+        <td align="center">B</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">A11.54105</td>
+        <td align="center">A11.4102</td>
+        <td>DASAR PEMROGRAMAN</td>
+        <td align="center">4</td>
+        <td align="center">B</td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">A11.54302</td>
+        <td align="center">A11.4102</td>
+        <td>MATEMATIKA DISKRIT</td>
+        <td align="center">3</td>
+        <td align="center">B</td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td align="center">A11.54314</td>
+        <td align="center">A11.4102</td>
+        <td>PEMROGRAMAN BERBASIS WEB</td>
+        <td align="center">2</td>
+        <td align="center">B</td>
+    </tr>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">A11.54403</td>
+        <td align="center">A11.4102</td>
+        <td>ORGANISASI DAN ARSITEKTUR KOMPUTER</td>
+        <td align="center">3</td>
+        <td align="center">B</td>
+    </tr>
+    <tr>
+        <td align="center">6</td>
+        <td align="center">AF201704</td>
+        <td align="center">A11.4102</td>
+        <td>DASAR DASAR KOMPUTASI</td>
+        <td align="center">2</td>
+        <td align="center">B</td>
+    </tr>
+    <tr>
+        <td align="center">7</td>
+        <td align="center">U201704</td>
+        <td align="center">A11.4102</td>
+        <td>PENGANTAR TEKNOLOGI INFORMASI</td>
+        <td align="center">2</td>
+        <td align="center">B</td>
+    </tr>
+</table>
+<br>
+
+<body>
+    <div style="text-align:center">
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button> 
+    <br><br>
+    <video id="video1" width="420" controls>
+        <source src="trailer.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <script> 
+        var myVideo = document.getElementById("video1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        
+        function makeBig() { 
+          myVideo.width = 560; 
+        }
+        
+        function makeSmall() {
+            myVideo.width = 320; 
+        }
+
+        function makeNormal() {
+            myVideo.width = 420;
+        }
+
+    </script> 
+        
+</body>
+</html>
